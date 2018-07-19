@@ -13,10 +13,6 @@ module.exports = {
       { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
     ]
   },
-  externals: {
-    "react": "React",
-    "react-dom": "ReactDOM"
-  },
   resolve: {
     extensions: [ '.tsx', '.ts', '.js', 'JSON' ]
   },
