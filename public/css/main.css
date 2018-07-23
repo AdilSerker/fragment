@@ -1,0 +1,15 @@
+img.headerPhoto {
+    height: 80%;
+}
+.photo {
+    height: 80%;
+}
+.closed-fragment {
+    display: flex;
+    flex-direction: row
+}
+
+div.headerPhoto {
+    height: 100%;
+    padding: 40pt;
+}
