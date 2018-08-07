@@ -1,11 +1,12 @@
-export interface FragmentProps {
-    headerPhoto: string;
+export interface FragmentParam {
+    id?: string;
+    headPhoto: string;
     firstName?: string;
     lastName?: string;
     nickName?: string;
     status: string[];
     quote: string;
-    allPhotos: string[];
+    photos: string[];
     interview: string[];
     date?: Date;
 }
